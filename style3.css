@@ -1,0 +1,30 @@
+*{
+    color: brown;
+    background: lemonchiffon;
+}
+h1{
+    
+    color: chocolate;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 100px;
+    font-style: italic;
+}
+h2{
+    
+    color: cadetblue;
+    font-size: 40px;
+    font-style: oblique;
+}
+h3{
+    
+    color: goldenrod;
+    font-size: 30px;
+    font-style: normal;
+}
+li{
+    font-family: monospace;
+    font-stretch: extra-expanded;
+    font-size: 18px;
+}

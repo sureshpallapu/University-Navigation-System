@@ -1,0 +1,1 @@
+University and college campuses are often large and congested, with thousands of students and faculty members navigating through them everyday. With multiple buildings, floors, and indoor and outdoor components, it’s easy to get lost, confused and frustrated on campus. So this application provides a map for your requirements on locations in the university.

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Adminitrative-Building.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.pos_cen{
+    position: absolute;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button{
+    background: transparent;
+    color: skyblue;
+    width: 100px;
+    height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 18px;
+    letter-spacing: 5px;
+    transition: 2s;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 50px 0 #00C2BA,0 20px 100px 0 #00C2BA;
+    transition: 2s;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+nav h1{
+    text-align: right;
+    font-size: 50px;
+    color: red;
+    margin-left: 70px; 
+    font-style: oblique;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+}
+.navlinks ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 2px 4px;
+    position: relative;
+}
+.navlinks ul li button{
+    width: 150px;
+}
+.navlinks ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.navlinks ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    color: rosybrown;
+}
+.text-box p{
+    font-size: medium;
+    color: chartreuse;
+}
+@media(max-width: 700px){
+    text-box h1{
+        font-size: 20px;
+    }
+    .navlinks ul li{
+        display: block;
+    }
+    .navlinks{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+}
+.text-box a{
+    font-size: 20px;
+    color: sandybrown;
+}
+
